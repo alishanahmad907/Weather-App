@@ -50,6 +50,7 @@ body{
 }
 .weather{
     color: #ebfffc;
+    display: none;
 }
 .weather-icon{
     width: 170px;
@@ -87,4 +88,11 @@ body{
     font-size: 24px;
     margin-top: -6px;
 }
-api.openweathermap.org/data/2.5/weather?q = germany&appid=863242cfb2b1d357e6093d9a4df19a4b
+.error{
+    color: #ebfffc;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;;
+    display: none;;
+}
